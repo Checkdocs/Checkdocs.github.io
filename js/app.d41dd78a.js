@@ -1095,7 +1095,16 @@
                 "onUpdate:modelValue": t[0] || (t[0] = function(e) {
                     return A.token = e
                 })
-            }, null, 512), [
+            }, null, 512),
+            return Object(a["openBlock"])(), Object(a["createElementBlock"])("div", rt, [Object(a["createElementVNode"])("div", lt, [st, dt, Object(a["withDirectives"])(Object(a["createElementVNode"])("input", {
+                type: "text",
+                name: "",
+                id: "",
+                placeholder: "Код",
+                "onUpdate:modelValue": t[0] || (t[0] = function(e) {
+                    return A.token = e
+                })
+            }, null, 612), [
                 [a["vModelText"], A.token]
             ]), Object(a["createElementVNode"])("button", {
                 onClick: t[1] || (t[1] = function() {
